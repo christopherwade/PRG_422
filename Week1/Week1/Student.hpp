@@ -1,6 +1,5 @@
 #ifndef  STUDENT_HPP
 #define STUDENT_HPP
-
 #include <string>
 
 class Student
@@ -20,8 +19,4 @@ class Student
 		Student(void);
 		~Student(void);	
 };
-
-
-
-
 #endif // ! STUDENT_HPP

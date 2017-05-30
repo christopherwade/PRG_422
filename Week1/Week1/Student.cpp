@@ -1,10 +1,10 @@
 #include "Student.hpp"
 #include "Utilities.hpp"
-
 #include <iostream>
 
 using namespace std;
 
+#define SUPER_DEBUG
 Student::Student(void)
 {
 	m_id = 0;
@@ -25,22 +25,16 @@ Student::~Student(void)
 void Student::AddGrade(int grade)
 {
 	m_num_grades++;
-	m_counter++;
 
-	for (int i = 0; i < m_capacity; i++)
-	{
 		if (m_num_grades > m_capacity)
 		{
-			ExtendArrayInt(&m_grades, m_capacity, m_counter);
+#ifdef SUPER_DEBUG
+			std::cout << "Reallocation triggered" << std::endl;
+#endif
+			ExtendArrayInt(&m_grades, m_capacity, 2 *m_capacity );
+			m_capacity += 10;
 		}
-		else
-		{
-			m_grades[i] = grade;
-		}
-
-		//m_grades[m_counter-1] += m_grades[grade];		
-	}
-	
+		m_grades[m_num_grades-1] = grade;		
 }
 
 void Student::Debug()
