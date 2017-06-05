@@ -50,5 +50,8 @@
     <ClInclude Include="test.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
