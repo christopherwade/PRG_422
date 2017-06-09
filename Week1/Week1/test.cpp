@@ -3,6 +3,7 @@
 #include "test.hpp"
 #include "a.hpp"
 #include "Pointers.hpp"
+#include "String.hpp"
 
 #include <cstdio>
 #include <iostream>
@@ -154,4 +155,34 @@ void test10(void)
 		cout << "The Element at v is " << v.ElementAt(i) << endl;
 	}
 	
+}
+
+//Test 11 tests Finding the First Occurrence of a char in a string 
+void test11(void)
+{
+	string s = ("Christopher Wade");
+	std::cout << s.find_first_of('s') << std::endl;
+}
+
+//Test 12 tests the adding a string to the Vector class
+void test12(void)
+{
+	String s1("Christopher Wade");
+
+	for (int i = 0; i < s1.GetSize(); i++)
+	{
+		cout << s1.ElementAt(i) << endl;
+	}
+
+}
+
+//Test 13 tests the Find First Occurrence function
+void test13(void)
+{
+	String s1("Christopher Wade");
+	s1.FindFirstOccurrence('p');
+
+
+
+
 }

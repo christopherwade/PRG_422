@@ -11,6 +11,10 @@ void test07(void);
 void test08(void);
 void test09(void);
 void test10(void);
+void test11(void);
+void test12(void);
+void test13(void);
+
 
 
 

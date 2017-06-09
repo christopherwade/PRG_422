@@ -123,6 +123,7 @@
   <ItemGroup>
     <ClInclude Include="a.hpp" />
     <ClInclude Include="Pointers.hpp" />
+    <ClInclude Include="String.hpp" />
     <ClInclude Include="Student.hpp" />
     <ClInclude Include="test.hpp" />
     <ClInclude Include="Utilities.hpp" />

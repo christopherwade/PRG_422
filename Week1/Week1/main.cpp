@@ -7,6 +7,7 @@
 #include "Pointers.hpp"
 #include "test.hpp"
 #include "Vector.hpp"
+#include "String.hpp"
 #include <iostream>
 
 // _CRT_SECURE_NO_WARNINGS
@@ -24,8 +25,14 @@ int main(int argc, char* argv[])
 	//test06();
 	//test07();
 	//test08();
-	test09();
+	//test09();
 	//test10();
+	//test11();
+	//test12();
+	test13();
+
+
+
 
 	char c;
 	scanf("%c", &c);

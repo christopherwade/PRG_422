@@ -49,22 +49,16 @@ public:
 		return m_buffer[index];
 	}
 
-	T GetCapacity(count_t a)
+	int GetCapacity()
 	{
-		a = m_capacity;
-		return a;
+		return m_capacity;
 	}
 
-	T GetSize(count_t a)
+	int GetSize()
 	{
-		a = m_counter;
-		return a;
-	}
-	
+
+		return m_counter;
+	}	
 };
-
-
-
-
 
 #endif // VECTOT_HPP defined

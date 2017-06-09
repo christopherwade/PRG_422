@@ -28,10 +28,9 @@ void Student::AddGrade(int grade)
 
 void Student::Debug()
 {
-	int a = 0;
 	cout << "ID = " << m_id << endl;
-	cout << "Capacity = " << m_grades.GetCapacity(a) << endl;
-	cout << "Number of grades = " << m_grades.GetSize(a) << endl;
+	cout << "Capacity = " << m_grades.GetCapacity() << endl;
+	cout << "Number of grades = " << m_grades.GetSize() << endl;
 	cout << "The grades that the student has are: " << endl;
 	for (int i = 0; i < 100; i++)
 	{

@@ -1,3 +1,5 @@
-﻿  Student.cpp
+﻿  main.cpp
+c:\users\chriswade\documents\github\prg_422\prg_422\week1\week1\string.hpp(48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\chriswade\documents\github\prg_422\prg_422\week1\week1\string.hpp(51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Week1.vcxproj -> C:\Users\ChrisWade\Documents\GitHub\PRG_422\PRG_422\Week1\x64\Debug\Week1.exe
   Week1.vcxproj -> C:\Users\ChrisWade\Documents\GitHub\PRG_422\PRG_422\Week1\x64\Debug\Week1.pdb (Partial PDB)
